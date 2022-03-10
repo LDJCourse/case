@@ -5,7 +5,7 @@ import Footer from "../UI/Footer";
 import Main from "../UI/Main";
 
 // Data
-import { renderedStocks } from "../Portfolio/stockData";
+import { personalStocks } from "../Portfolio/stockData";
 
 const MyPortfolio = () => {
   return (
@@ -15,7 +15,7 @@ const MyPortfolio = () => {
           <h1 className="my-3 text-center text-2xl font-bold tracking-wide">
             My Portfolio
           </h1>
-          {renderedStocks}
+          {personalStocks}
         </div>
       </Main>
       <Footer />

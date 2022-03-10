@@ -1,5 +1,6 @@
 // Components
 import PortfolioStock from "./PortfolioStock";
+import MyStocks from "./MyStocks";
 
 // Images
 import fordlogo from "../images/fordlogo.png";
@@ -38,6 +39,18 @@ const stockData = [
 
 export const renderedStocks = stockData.map((s) => (
   <PortfolioStock
+    key={s.id}
+    id={s.id}
+    name={s.name}
+    initial={s.initial}
+    price={s.price}
+    percentChange={s.percentChange}
+    stocks={s.stocks}
+    img={s.img}
+  />
+));
+export const personalStocks = stockData.map((s) => (
+  <MyStocks
     key={s.id}
     id={s.id}
     name={s.name}
