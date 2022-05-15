@@ -2,6 +2,98 @@ body {
   background-color: #f4f6f8;
 }
 
-@tailwind base;
+.scroll-horizontal {
+  display: flex;
+  overflow: auto;
+}
+
+.justify-content-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.explore-title {
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.025px;
+  text-align: left;
+  color: #646467;
+}
+
+.company-container {
+  background-color: #fafafd;
+  margin: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px 0 rgba(10, 10, 19, 0.16);
+}
+
+.background-image {
+  height: 120px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  background-position: center;
+}
+.company-images {
+  position: relative;
+}
+.background-logo {
+  width: 60px;
+  height: 60px;
+  left: 20px;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 50%;
+  position: absolute;
+  background-position: center;
+}
+.section-title {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.company-details {
+  padding: 10px 20px;
+}
+
+.company-name {
+  font-size: 25px;
+  font-weight: 600;
+  font-style: normal;
+  font-family: Inter;
+  white-space: nowrap;
+}
+.company-price {
+  color: #646467;
+  font-weight: 600;
+}
+
+.company-placement {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.company-placement div {
+  font-size: 23px;
+  color: #646467;
+}
+
+.company-description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */

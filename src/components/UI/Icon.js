@@ -5,7 +5,7 @@ const Icon = ({ name, iconName, selected }) => {
     <div
       className={`${
         selected ? "text-black" : "text-gray-400"
-      } flex flex-col items-center `}
+      } flex items-center `}
     >
       <span className="material-icons">{iconName}</span>
       <h1 className="text-xs">{name}</h1>
