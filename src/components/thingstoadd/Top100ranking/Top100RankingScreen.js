@@ -1,21 +1,6 @@
 import React from "react";
 
-// Components
-import AvailableCash from "../Cash/AvailableCash";
-import DougnutChart from "../Chart/DougnutChart";
-import Navbar from "../layout/Navbar";
-import WelcomeMessage from "../Message/WelcomeMessage";
-import PortfolioList from "../Portfolio/PortfolioList";
-import Main from "../UI/Main";
-import Icon from "../UI/Icon";
-
-import fordlogo from "../images/fordlogo.png";
-import idexlogo from "../images/idexlogo.png";
-import oatlylogo from "../images/oatlylogo.png";
-
-const Mainsite = () => {
-  // Creating a list of companies
-
+const Top100RankingScreen = () => {
   return (
     <div>
       {/* Commitments */}
@@ -56,4 +41,4 @@ const Top100ListItem = () => {
   );
 };
 
-export default Mainsite;
+export default Top100RankingScreen;
